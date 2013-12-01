@@ -1,7 +1,8 @@
 selectbox
 ===========
 
-Plugin for searching text nodes in the page, like native browser search
+Plugin for styling <select> and <select multiple>
+
 Example: http://inflottravel.artfactor.ru/navigator/
 
 How to use
