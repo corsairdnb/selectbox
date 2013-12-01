@@ -2,6 +2,7 @@ selectbox
 ===========
 
 Plugin for searching text nodes in the page, like native browser search
+Example: http://inflottravel.artfactor.ru/navigator/
 
 How to use
 
@@ -35,3 +36,5 @@ $(".select").selectbox({
     selectedText: "Selected: {items}", // show number of selected items
 });
 ```
+
+Don't forget to add stylesheets from /css/
