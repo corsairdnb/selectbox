@@ -17,9 +17,21 @@ HTML
 JS
 ```javascript
 $(".select").selectbox({
-    closeOnChange: false,
-    renderOn: "filtered",
-    width: "100%",
-    defaultText: "Не выбрано"
+    closeOnChange: false, // close dropdown when selected
+    renderOn: "filtered", // event name to listen to for trigger rendering
+    width: "100%", // set width of selectbox
+    defaultText: "Не выбрано", // default text when nothing is selected
+    closeOnClickOut: true, // close dropdown when clicked somewhere on page
+    addID: "my-id", // add some id
+    wrapWith: "", // wrap dropdown list items in some containers
+    defaultValue: false, // item with this value will be selected by default
+    addWidth: false, // 100% of parent width + additional value in px
+    onChange: false, // what to do on original select is changed
+    onShow: false, // what to do when dropdown is shown
+    onHide: false, // what to do when dropdown is hidden
+    onRender: false, // what to do when selectbox is re-rendered
+    closeBtn: false, // add closing button
+    closeBtnSingle: false, // need closing button on single selects or not
+    selectedText: "Selected: {items}", // show number of selected items
 });
 ```
