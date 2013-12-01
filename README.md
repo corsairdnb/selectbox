@@ -1,7 +1,7 @@
 selectbox
 ===========
 
-Plugin for styling <select> and <select multiple>
+Plugin for styling '<select>' and '<select multiple>'
 
 Example: http://inflottravel.artfactor.ru/navigator/
 
