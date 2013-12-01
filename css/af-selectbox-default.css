@@ -1,0 +1,46 @@
+.has-selectbox {
+    display: none !important;
+}
+.selectbox {
+    display: inline-block;
+    position: relative;
+}
+.selectbox, .selectbox * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.selectbox-wrapper {
+    position: relative;
+    text-overflow: ellipsis;
+}
+.selectbox ul {
+    display: none;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: -1px;
+    top: 27px;
+    z-index: 10;
+}
+.selectbox.opened ul {
+    display: block !important;
+}
+.selectbox ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.selectbox ul li.disabled {
+    display: none !important;
+}
+.selectbox ul li, .selectbox-label {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.selectbox-label {
+    display: block;
+    width: 100%;
+}

@@ -1,0 +1,36 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Roboto, Arial, sans-serif;
+}
+body, html {
+    height: 100%;
+}
+header, main, footer {
+
+}
+header {
+    background: #c6edf5;
+}
+main {
+
+}
+footer {
+    background: #c6edf5;
+}
+.container {
+    width: 980px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.c {
+    text-align: center;
+}
+label {
+    font-size: small;
+    font-style: italic;
+}
+.select {
+    margin: 5px 0 30px;
+}

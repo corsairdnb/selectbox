@@ -1,0 +1,142 @@
+.has-selectbox {
+    display: none;
+}
+.selectbox {
+    display: inline-block;
+    position: relative;
+}
+.selectbox, .selectbox-wrapper {
+    width: 100%;
+}
+.selectbox-wrapper {
+    height: 30px;
+    cursor: pointer;
+    background: #f0f0f0;
+    background: -o-linear-gradient(top, #fff, #f0f0f0);
+    background: -ms-linear-gradient(top, #fff, #f0f0f0);
+    background: -moz-linear-gradient(top, #fff, #f0f0f0);
+    background: -webkit-linear-gradient(top, #fff, #f0f0f0);
+    background: -webkit-gradient(linear, left top, left bottom,
+    color-stop(0%,#fff), color-stop(100%,#f0f0f0));
+    background: linear-gradient(to bottom, #fff, #f0f0f0);
+    border: 1px #ccc solid;
+    -webkit-box-shadow: 0 -1px 0 0 #fff inset;
+    -moz-box-shadow: 0 -1px 0 0 #fff inset;
+    box-shadow: 0 -1px 0 0 #fff inset;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.selectbox-wrapper:hover {
+    background: #f9f9f9;
+    background: -o-linear-gradient(top, #fff, #f9f9f9);
+    background: -ms-linear-gradient(top, #fff, #f9f9f9);
+    background: -moz-linear-gradient(top, #fff, #f9f9f9);
+    background: -webkit-linear-gradient(top, #fff, #f9f9f9);
+    background: -webkit-gradient(linear, left top, left bottom,
+    color-stop(0%,#fff), color-stop(100%,#f9f9f9));
+    background: linear-gradient(to bottom, #fff, #f9f9f9);
+}
+.selectbox.opened .selectbox-wrapper {
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+.selectbox-wrapper:after {
+    content: "";
+    position: absolute;
+    right: 8px;
+    top: 13px;
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #999;
+}
+.selectbox ul {
+    max-height: 200px;
+    overflow: auto;
+    top: 27px;
+    background: #f0f0f0;
+    border: 1px #ccc solid;
+    border-top-color: transparent;
+    -webkit-box-shadow: 0 -1px 0 0 #fff inset;
+    -moz-box-shadow: 0 -1px 0 0 #fff inset;
+    box-shadow: 0 -1px 0 0 #fff inset;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.selectbox ul, .selectbox ul li.last {
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+.selectbox.multiple ul {
+    width: 590px;
+    max-height: none;
+    padding: 10px 0 10px 10px;
+    top: 28px;
+    -webkit-border-radius: 0 5px 5px;
+    -moz-border-radius: 0 5px 5px;
+    border-radius: 0 5px 5px;
+    border-color: #ccc;
+}
+.selectbox ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.selectbox ul li {
+    min-height: 30px;
+    margin: 0;
+    padding: 4px 30px 6px 10px;
+    cursor: pointer;
+}
+.selectbox.multiple ul li {
+    width: 285px;
+    float: left;
+    margin: 0 10px 0 0;
+}
+.selectbox ul li:hover {
+    background: #fff;
+}
+.selectbox ul li.selected {
+    background: #60c1d6;
+    color: #fff;
+}
+/*.selectbox ul li:hover:after, .selectbox ul li.selected:after {
+    content: "";
+    background: #60c1d6;
+    display: none;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 8px;
+    top: 9px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.selectbox ul li:hover:after, .selectbox ul li.selected:after {
+    display: block;
+}
+.selectbox ul li.selected:after {
+    background: #fff;
+}*/
+.selectbox.multiple li.first {
+    -webkit-border-radius: 0 5px 0 0;
+    -moz-border-radius: 0 5px 0 0;
+    border-radius: 0 5px 0 0;
+}
+.selectbox.multiple li.last {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.selectbox-label {
+    height: 24px;
+    padding: 4px 15px 0 10px;
+    text-shadow: 0 1px 0 #fff;
+}
